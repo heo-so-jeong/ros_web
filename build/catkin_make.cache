@@ -1,0 +1,2 @@
+delivery_service_robot/delivery_nodejs:delivery_service_robot/delivery_topics
+-DCATKIN_DEVEL_PREFIX=/home/crashlab/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/crashlab/catkin_ws/install -G Unix Makefiles

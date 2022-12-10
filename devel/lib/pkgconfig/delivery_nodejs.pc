@@ -1,0 +1,8 @@
+prefix=/home/crashlab/catkin_ws/devel
+
+Name: delivery_nodejs
+Description: Description of delivery_nodejs
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
