@@ -1,0 +1,2 @@
+delivery_service_robot/delivery_nodejs:delivery_service_robot/delivery_topics
+-DCATKIN_DEVEL_PREFIX=/home/jomiseon/new_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jomiseon/new_ws/install -G Unix Makefiles

@@ -1,0 +1,2 @@
+set(delivery_topics_MESSAGE_FILES "")
+set(delivery_topics_SERVICE_FILES "/home/jomiseon/new_ws/src/delivery_service_robot/delivery_topics/srv/MenuSelector.srv")

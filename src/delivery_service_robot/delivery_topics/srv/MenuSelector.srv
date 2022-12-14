@@ -1,0 +1,7 @@
+uint8 restaurant
+uint8 count
+uint8 destone
+uint8 desttwo
+uint8 menu
+---
+string message

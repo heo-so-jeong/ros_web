@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+<title>DELIVERY SERVICE BY 404ERROR</title>
+
+<style>
+body {
+  height: 100vmin; }
+form {
+  height: 100vmin; }
+button {&nbsp;
+  width: 100px;
+  height: 60px;
+  color: white;
+  background-color:#008000;
+  border:solid 1px #008000;
+  border-radius:12px;
+}
+select{
+  display:inline-block;
+  width: 200px;
+  height: 30px;
+  color: black;
+  background-color:white;
+  border:solid 1px black;
+  border-radius:12px;
+ display: inline-block;
+}
+</style>
+
+</head>
+<script>
+  function optionChk(){
+    var langSelect = document.getElementById("count");
+    var selectValue = langSelect.options[langSelect.selectedIndex].value;          if(selectValue!="2") { $("#desttwo").prop('disabled',true); }
+else { $("#desttwo").prop('disabled',false); } }
+</script>
+
+<body>
+<form action="/" method="post">
+<h1 style="color:green">DELIVERY SERVICE BY Team 404ERROR</h1>
+
+<b>restaurant &nbsp;&nbsp;&nbsp;&nbsp;</b>
+<select name="restaurant">
+<option value="0">"========select========"</option>
+<option value="1">101</option>
+<option value="2">102</option>
+<option value="3">105</option>
+<option value="3">111(연구실)</option>/br></br>
+<option value="4">112-1(연구실)</option>
+<option value="5">112(Care lab)</option>
+<option value="6">113(기계공작 실험실)</option>
+<option value="7">114(유체공학 실험실)</option>
+<option value="8">115(재료 실험실)</option>
+<option value="9">116(엔진 및 광계측 실험실)</option>
+<option value="10">117(융합시스템학과) 행정실</option>
+<option value="11">118</option>
+<option value="12">119(연구실)</option>
+<option value="13">120(연구실)</option>
+<option value="14">121(글로벌 연구실 사업단)</option>
+<option value="15">122(로봇공/br></br>학과 학생회실)</option>
+<option value="16">123(기계공학과 학생회실)</option>
+<option value="17">124</option>
+<option value="18">125</option>
+<option value="19">126</br></br>/option>
+<option value="20">127(재료공학전공공동실험실)</option>
+<option value="21">128(캡스톤디자인실험실)</option>
+<option value="22">128-1(재/br></br>료복합물성실험실)</option>
+<option value="23">129(생명나노공학과 학부실험실)</option>
+<option value="24">130(연구실)</option>
+<option value="25">131(위험물 보관실)</option>
+</select>
+</br></br>
+<p]b>음식점 전화번호 &nbsp; </b><input type="text"> 
+</br></br>
+</br></br>
+<b>count&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+<select id ="count" name="count" onchange="optionChk()">
+<option value="0">"========select========"</option>
+<option value="1">1</option> <option value="2">2</option> </select>
+</br></br>
+</br></br>
+<b>destination 1</b>
+<select name="destone">
+<option value="0">"========select========"</option>
+<option value="1">101</option>
+<option value="2">102</option>
+<option value="3">105</option>
+<option value="3">111(연구실)</option>
+<option value="4">112-1(연구실)</option>
+<option value="5">112(Care lab)</option>&nbsp;
+<option value="9">116(엔진 및 광계측 실험실)</option>
+<option value="10">117(융합시스템학과) 행정실</option>
+<option value="11">118</option>
+<option value="12">119(연구실)</option>
+<option value="13">120(연구실)</option>
+<option value="14">121(글로/br></br>벌 연구실 사업단)</option>
+<option value="15">122(로봇공학과 학생회실)</option>
+<option value="16">123(기계공학과 학생회실)</option>
+<option value="17">124</option>
+<option value="18">125</option>
+<option value="19">126</option>
+<option value="20">127(재료공학전공공동실험실)</option>
+<option value="21">128(캡스톤디자인실험실)</option>
+<option value="22">128-1(재료복합물성실험실)</option>
+<option value="23">129(생명나노공학과 학부실험실)</option>
+<option value="24">130(연구실)</option>
+<option value="25">131(위험물 보관실)</option>
+</select>
+</br></br>
+<plb>수령인1 전화번호 &nbsp; </b><input type="text"> 
+</br></br>
+</br></br>
+<b>destination 2</b>
+<select id="desttwo" name="desttwo" onchange="optionChk()">
+<option value="0">"========select========"</option>
+<option value="1">101</option>
+<option value="2">102</option>
+<option value="3">105</option>
+<option value="3">111(연구실)</option>
+<option value="4">112-1(연구실)</optio/br></br>n>
+<option value="5">112(Care lab)</option>
+<option value="6">113(기계공작 실험실)</option>
+<option value="7">114(유체공학 실험실)</option>
+<option value="8">115(재료 실험실)</option>
+<option value="9">116(엔진 및 광계측 실험실)</option>
+<option value="10">117(융합시스템학과) 행정실</option>
+<option value="11">118</option>&nbsp;
+<option value="12">119(연구실)</option>
+<option value="13">120(연구실)</option>
+<option value="14">121(글로벌 연구실 사업단)</option>
+<option value="15">122(로봇공학과 학생회실)</option>
+<option value="16">123(기계공학과 학생회실)</option>
+<option value="17">124</option>/br></br>
+<option value="18">125</option>
+<option value="19">126</option>
+<option value="20">127(재료공학전공공동실험실)</option>
+<option value="21">128(캡스톤디자인실험실)</option>&nbsp;
+<option value="22">128-1(재료복합물성실험실)</option>
+<option value="23">129(생명나노공학과 학부실험실)</option>
+<option value="24">130(연구실)</option>
+<option value="25">131(위험물 보관실)</option>
+</select>
+
+</br></br>
+<plb>수령인2 전화번호 &nbsp; </b><input type="text"> 
+</br></br>
+</br></br>
+<button name="menu" value="0"><h2>select</h2></button>
+</br></br></br>
+<button name="menu" value="1"><h2>progress</h2></button>
+
+<% if (hasOwnProperty('message')) { %> <h2><%= message %></h2> <% } %>
+
+
+</form>
+</body>
