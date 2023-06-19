@@ -1,16 +1,14 @@
 # ros_web
+실내 자율 주행 배송 로봇과 통신하는 웹
 
+## 사용 기술
+<img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white"> <img src="https://img.shields.io/badge/ros-22314E?style=for-the-badge&logo=ROS&logoColor=white"> <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=Ubuntu&logoColor=white">
 
-> Pass Web Inputs to ros in an Integer Array   
-> Pass ros values to web to inform robot location
-> for indoor delivery robot
+## 주요 기능
+- 웹에서 입력한 값을 배열 형태로 ROS에 전달하기
+- 웹에서 ROS 값을 전달 받아 로봇 위치 알리기
 </br>
 
-> + ros1 melodic
-> + ubuntu 18.04
-> + rosnodejs service server client 
->   + nodejs
->   + npm
 
 ## RUN
 **노드 실행 전**
@@ -79,3 +77,14 @@ sudo mv /var/lib/dpkg/info/* /var/lib/dpkg/backup/
 sudo rm -rf /var/lib/dpkg/info
 sudo mv /var/lib/dpkg/backup/ /var/lib/dpkg/info/
 ``` 
+---
+> Pass Web Inputs to ros in an Integer Array   
+> Pass ros values to web to inform robot location
+> for indoor delivery robot
+</br>
+
+> + ros1 melodic
+> + ubuntu 18.04
+> + rosnodejs service server client 
+>   + nodejs
+>   + npm
