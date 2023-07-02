@@ -1,6 +1,8 @@
 # ros_web
 실내 자율 주행 배송 로봇과 통신하는 웹
 
+크래쉬랩 수업
+
 ## 사용 기술
 <img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white"> <img src="https://img.shields.io/badge/ros-22314E?style=for-the-badge&logo=ROS&logoColor=white"> <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=Ubuntu&logoColor=white">
 
